@@ -30,6 +30,7 @@
         {
             this.button1 = new System.Windows.Forms.Button();
             this.txtbxname = new System.Windows.Forms.TextBox();
+            this.txtbxname2 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // button1
@@ -44,16 +45,24 @@
             // 
             // txtbxname
             // 
-            this.txtbxname.Location = new System.Drawing.Point(269, 202);
+            this.txtbxname.Location = new System.Drawing.Point(120, 199);
             this.txtbxname.Name = "txtbxname";
             this.txtbxname.Size = new System.Drawing.Size(112, 20);
             this.txtbxname.TabIndex = 1;
+            // 
+            // txtbxname2
+            // 
+            this.txtbxname2.Location = new System.Drawing.Point(271, 199);
+            this.txtbxname2.Name = "txtbxname2";
+            this.txtbxname2.Size = new System.Drawing.Size(119, 20);
+            this.txtbxname2.TabIndex = 2;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(811, 479);
+            this.Controls.Add(this.txtbxname2);
             this.Controls.Add(this.txtbxname);
             this.Controls.Add(this.button1);
             this.Name = "Form1";
@@ -67,6 +76,7 @@
 
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox txtbxname;
+        private System.Windows.Forms.TextBox txtbxname2;
     }
 }
 
