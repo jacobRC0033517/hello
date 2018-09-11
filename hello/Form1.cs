@@ -19,7 +19,7 @@ namespace hello
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("im called  " + txtbxname.Text + " but my real name is " + txtbxname2.Text);
+            MessageBox.Show("i like  " + txtbxname.Text + " but i love " + txtbxname2.Text);
 
         }
     }
